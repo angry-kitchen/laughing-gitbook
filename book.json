@@ -1,9 +1,10 @@
 {
-    "title": "My Books",
+    "title": "MySQL Books",
     "author": "Jigang Duan",
     "description": "select * from learn",
     "language": "zh-hans",
     "gitbook": "3.2.3",
+    "root": "books",
     "styles": {
         "website": "./styles/website.css"
     },
@@ -34,8 +35,8 @@
         },
         "github-buttons": {
             "buttons": [{
-                "user": "Blankj",
-                "repo": "glory",
+                "user": "angry-kitchen",
+                "repo": "laughing-gitbook",
                 "type": "star",
                 "size": "small",
                 "count": true

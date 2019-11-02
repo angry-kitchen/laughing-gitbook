@@ -1,6 +1,6 @@
 const path = require('path')
-const ghPages = require('gh-pages')
+const { publish } = require('gh-pages')
 
-ghPages.publish(path.join(__dirname, '../_book'), err => {
-  console.error(err)
+publish(path.join(__dirname, '../_book'), err => {
+  console.error("发布出错 ", err)
 })
